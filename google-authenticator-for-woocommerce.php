@@ -9,7 +9,7 @@ Version: 1.0.0
 License: GPLv3 or later
 */
 
-/* Code borrowed from TFA for Woocommerce plugin http://wordpress.org/plugins/two-factor-auth-for-woocommerce/  */
+/* Code borrowed from Two Factor Auth for Woocommerce plugin http://wordpress.org/plugins/two-factor-auth-for-woocommerce/  */
 
 function googleAuthAddButtonToWC() {
 	if(!is_user_logged_in()) {
