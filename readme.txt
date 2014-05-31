@@ -3,7 +3,7 @@ Contributors: Draekko
 Tags: auth, two factor auth, login, security, authenticate, password, hacking, security plugin, secure, google, authenticator
 Requires at least: 3.9.1
 Tested up to: 3.9.1
-Stable tag: 1.0.1
+Stable tag: 1.1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,9 +29,11 @@ or
 
 
 == Changelog ==
+= 1.1.1 =
+* Added a menu page to edit the label and button text.
 
 = 1.0.1 =
 * Changed the label for the prompt to add the word optional.
 
-= 1.0 =
+= 1.0.0 =
 * Initial release.
