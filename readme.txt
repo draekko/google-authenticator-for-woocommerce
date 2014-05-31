@@ -30,5 +30,8 @@ or
 
 == Changelog ==
 
+= 1.0.1 =
+* Changed the label for the prompt to add the word optional.
+
 = 1.0 =
 * Initial release.
