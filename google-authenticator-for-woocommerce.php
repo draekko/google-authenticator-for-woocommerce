@@ -5,7 +5,7 @@ Plugin URI: https://github.com/draekko/google-authenticator-for-woocommerce
 Description: Adds Google Authenticator login for WooCommerce. Requires the Google Authenticator plugin to function.
 Author: Draekko
 Author URI: http://draekko.com
-Version: 1.1.1
+Version: 1.1.2
 License: GPLv3 or later
 */
 

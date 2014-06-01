@@ -10,8 +10,6 @@ jQuery(document).ready(function() {
 	    var ga_wc_user_field = jQuery('[name=username]');
 		var ga_wc_submit_btn = jQuery('[name=login]');
 
-		ga_wc_submit_btn.attr("disabled", 'disabled');
-		
 		var ga_wc_otp_btn = document.createElement('button');
 		ga_wc_otp_btn.id = 'google_auth_otp_button';
 		ga_wc_otp_btn.className = 'button button-large button-primary';

@@ -29,6 +29,9 @@ or
 
 
 == Changelog ==
+= 1.1.2 =
+* Fixed login button. Removed disable by default.
+
 = 1.1.1 =
 * Added a menu page to edit the label and button text.
 
