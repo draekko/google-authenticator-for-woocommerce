@@ -14,19 +14,14 @@ jQuery(document).ready(function() {
 		ga_wc_otp_btn.id = 'google_auth_otp_button';
 		ga_wc_otp_btn.className = 'button button-large button-primary';
 		ga_wc_otp_btn.onclick = function(){ return gaChangeToInput(); };
-		ga_wc_otp_btn.style.styleFloat = 'none';
-		ga_wc_otp_btn.style.cssFloat = 'none';
 		
 		var ga_wc_btn_text = document.createTextNode(ga_wc_settings.click_to_enter_otp);
 		ga_wc_otp_btn.appendChild(ga_wc_btn_text);
-		ga_wc_otp_btn.style.width = '100%';
 		
 		var ga_wc_p = document.createElement('p');
 		ga_wc_p.id = 'ga_wc_holder';
-		ga_wc_p.style.marginTop = '-12px';
 		var lbl = document.createElement('label');
 		lbl.id = 'ga_label_wc_holder';
-		lbl.style.width = '100%';
 		var lbl_text = document.createTextNode(ga_wc_settings.google_otp);
 		lbl.appendChild(lbl_text);
 		
@@ -53,10 +48,8 @@ jQuery(document).ready(function() {
 		);
 		
 		var p = document.getElementById('ga_wc_holder');
-		p.style.marginTop = '-12px';
 		var lbl = document.createElement('label');
 		lbl.for = 'user-email';
-		lbl.style.width = '100%';
 		var lbl_text = document.createTextNode(ga_wc_settings.google_otp);
 		lbl.appendChild(lbl_text);
 		
@@ -84,3 +77,4 @@ jQuery(document).ready(function() {
 		jQuery(p).insertBefore(ga_wc_submit_btn);
 	}
 });
+

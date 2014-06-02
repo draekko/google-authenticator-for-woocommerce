@@ -29,6 +29,9 @@ or
 
 
 == Changelog ==
+= 1.1.3 =
+* Removed hardcoded styles in the script.
+
 = 1.1.2 =
 * Fixed login button. Removed disable by default.
 
