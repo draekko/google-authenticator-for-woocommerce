@@ -5,7 +5,7 @@ Plugin URI: https://github.com/draekko/google-authenticator-for-woocommerce
 Description: Adds Google Authenticator login for WooCommerce. Requires the Google Authenticator plugin to function.
 Author: Draekko
 Author URI: http://draekko.com
-Version: 1.1.5
+Version: 1.1.6
 License: GPLv3 or later
 */
 
@@ -40,7 +40,8 @@ add_action('wp_enqueue_scripts', 'googleAuthAddButtonToWC');
 
 
 function checkGoogleAuthforWCDependencies() {
-	if(!is_plugin_active('google-authenticator/google-authenticator.php')) {
+	if(!is_plugin_active('google-authenticator/google-authenticator.php') && 
+	   !is_plugin_active('google-authenticator-with-admin-page/google-authenticator.php')) {
 		deactivate_plugins(basename(__FILE__));
 		die('<p>The <strong>Google Authenticator for WooCommerce</strong> needs the plugin <a href="http://wordpress.org/plugins/google-authenticator/">Google Authenticator</a> to be installed first.</p>');
 	}
@@ -148,4 +149,3 @@ function do_update_admin_settings() {
 
 
 ?>
-

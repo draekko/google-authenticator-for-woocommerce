@@ -3,7 +3,7 @@ Contributors: Draekko
 Tags: auth, two factor auth, login, security, authenticate, password, hacking, security plugin, secure, google, authenticator
 Requires at least: 3.9.1
 Tested up to: 3.9.1
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,8 +29,12 @@ or
 
 
 == Changelog ==
+= 1.1.6 =
+* Minor tweak to add support for my modded version of the Google Auth plugin.
+* Fixed message "The plugin generated 1 characters of unexpected output during activation".
+
 = 1.1.5 =
-* Fixed activation error message " call_user_func_array() expects parameter 1 to be a valid callback".
+* Fixed activation error message "call_user_func_array() expects parameter 1 to be a valid callback".
 
 = 1.1.4 =
 * Added missing label id to script.
